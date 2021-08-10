@@ -13,10 +13,12 @@ int main(){
     	int n,a,b,c,d;
     	cin>>n>>a>>b>>c>>d;
     	int L = n * (a - b), R = n * (a + b);
-		if (R < c - d || c + d < L)
+		if (R < c - d || c + d < L){
 		    cout << "No\n";
-		else
+		}
+		else{
 		    cout << "Yes\n";
+		}
     }
     return 0;
 }
